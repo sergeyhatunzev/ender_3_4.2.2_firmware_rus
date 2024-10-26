@@ -7,8 +7,8 @@ module.exports = {
     },
     configuration: {
         enable: [
-            ["GRID_MAX_POINTS_X", 7]
-            ["NOZZLE_TO_PROBE_OFFSET", [20, 20, 0]]
+            ["GRID_MAX_POINTS_X", 7],
+            ["NOZZLE_TO_PROBE_OFFSET", [20, 20, 0]],
             ["LCD_LANGUAGE", q`ru`]
         ]
     }
