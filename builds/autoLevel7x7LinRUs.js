@@ -1,3 +1,6 @@
+const ru = "ru"
+
+
 module.exports = {
     extends: "builds/baseLin.js",
     include: "builds/features/autoLevel.js",
@@ -12,7 +15,7 @@ module.exports = {
         ],
         enable: [
             ["GRID_MAX_POINTS_X", 7],
-            ["LCD_LANGUAGE", en]
+            ["LCD_LANGUAGE", ru]
         ]
     }
 };
