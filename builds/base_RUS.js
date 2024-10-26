@@ -9,7 +9,9 @@ module.exports = {
             ["STRING_CONFIG_H_AUTHOR", "(Dust, valerionew, Ender-3, zisismaras)"],
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
-            "BED_TRAMMING_INCLUDE_CENTER"
+            "BED_TRAMMING_INCLUDE_CENTER",
+            ["LCD_LANGUAGE", q`ru`]
+            
         ]
     },
     configuration_adv: {
@@ -17,7 +19,7 @@ module.exports = {
             //octoprint
             "HOST_ACTION_COMMANDS",
             
-            ["LCD_LANGUAGE", q`ru`]
+            
             
         ]
     }
