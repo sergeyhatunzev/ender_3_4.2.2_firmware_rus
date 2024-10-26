@@ -8,7 +8,7 @@ module.exports = {
     configuration: {
         disable: [
             
-            "LCD_LANGUAGE"
+            
         ],
         enable: [
             ["GRID_MAX_POINTS_X", 7],
