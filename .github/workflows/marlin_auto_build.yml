@@ -15,3 +15,9 @@ jobs:
         
       - name: Build Marlin Firmware
         uses: zisismaras/marlin_auto_build@master
+
+      - name: Upload Firmware Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: marlin-firmware  # Имя для артефакта
+          path: path/to/your/output/*.bin  # Путь к вашим сгенерированным .bin файлам
