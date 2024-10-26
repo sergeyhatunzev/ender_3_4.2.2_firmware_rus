@@ -14,7 +14,11 @@
         "md5": "2471aad1441fac5cde01bfb18ee27d2b",
         "assetId": 175252810
     },
-    
+    "builds/autoLevel7x7LinRUs.js": {
+        "version": "2.1.2.4",
+        "md5": "9d659065d78badda41002542e5471fac",
+        "assetId": 201925200
+    },
     "builds/base.js": {
         "version": "2.1.2.4",
         "md5": "706a7960fb1ddbfd1f2e85da2c9e716c",
