@@ -13,7 +13,7 @@ module.exports = {
         enable: [
             ["GRID_MAX_POINTS_X", 7],
             
-            ["LCD_LANGUAGE", "ru"] // оставляем "ru" как строку в скрипте
+            ["LCD_LANGUAGE", ru] // оставляем "ru" как строку в скрипте
         ]
     }
 };
