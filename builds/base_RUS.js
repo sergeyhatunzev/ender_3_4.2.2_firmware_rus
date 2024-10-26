@@ -16,6 +16,8 @@ module.exports = {
         enable: [
             //octoprint
             "HOST_ACTION_COMMANDS"
+            
+            ["LCD_LANGUAGE", q`ru`]
         ]
     }
 };
