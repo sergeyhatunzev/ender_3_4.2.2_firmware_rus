@@ -7,9 +7,9 @@ module.exports = {
     },
     configuration: {
         enable: [
-            ["GRID_MAX_POINTS_X", 7]
-            ["DISPLAY_CHARSET_HD44780", "CYRILLIC" ]
-            ["LCD_LANGUAGE", "ru" ]
+            ["GRID_MAX_POINTS_X", 7],
+            ["DISPLAY_CHARSET_HD44780", "CYRILLIC" ],
+            ["LCD_LANGUAGE_2", "ru" ]
         ]
     }
 };
