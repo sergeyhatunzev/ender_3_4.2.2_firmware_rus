@@ -12,7 +12,7 @@ module.exports = {
         ],
         enable: [
             ["GRID_MAX_POINTS_X", 7],
-            ["LCD_LANGUAGE", 'en']
+            ["LCD_LANGUAGE", en]
         ]
     }
 };
