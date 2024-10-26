@@ -1,14 +1,17 @@
 name: marlin_auto_build
 
 on:
-  push:
-    paths:
-      - 'builds/**'
+  workflow_dispatch:  # Позволяет вручную запускать workflow
   schedule:
-    - cron:  '30 3 * * *'
+    - cron: '30 3 * * *'  # Запуск по расписанию каждый день в 03:30 UTC
 
 jobs:
   create_builds:
     runs-on: ubuntu-latest 
+
     steps:
-    - uses: zisismaras/marlin_auto_build@master
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Build Marlin Firmware
+        uses: zisismaras/marlin_auto_build@master
