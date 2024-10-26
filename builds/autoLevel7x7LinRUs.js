@@ -1,4 +1,4 @@
-const ru = "ru"
+
 
 
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
         ],
         enable: [
             ["GRID_MAX_POINTS_X", 7],
-            ["LCD_LANGUAGE", ru]
+            ["LCD_LANGUAGE", String.raw`ru`]
         ]
     }
 };
