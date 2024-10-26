@@ -13,7 +13,7 @@ module.exports = {
         ],
         enable: [
             ["GRID_MAX_POINTS_X", 7],
-            ["DISPLAY_CHARSET_HD44780", "CYRILLIC"],
+            
             ["LCD_LANGUAGE", "ru"] // оставляем "ru" как строку в скрипте
         ]
     }
