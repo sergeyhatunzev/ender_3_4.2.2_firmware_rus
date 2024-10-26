@@ -9,14 +9,9 @@ module.exports = {
         nightly_name: "ender_3_4.2.2-{{current_date}}-auto_level_7x7_lin-{{uid}}"
     },
     configuration: {
-        disable: [
-            
-            
-        ],
         enable: [
             ["GRID_MAX_POINTS_X", 7],
             ["LCD_LANGUAGE", q`ru`]
-            
         ]
     }
 };
