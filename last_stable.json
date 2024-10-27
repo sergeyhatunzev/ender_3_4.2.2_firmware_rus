@@ -1,38 +1,23 @@
 {
-    "builds/autoLevel5x5Lin_Russian _PROBING_MARGIN_50.js": {
-        "version": "2.1.2.4",
-        "md5": "16d97883fb5eeafbbd1a0c655bb67559",
-        "assetId": 202101508
-    },
     "builds/autoLevel5x5Lin_Russian.js": {
         "version": "2.1.2.4",
         "md5": "dd5898b4c8de024b567618d2bcf3569d",
         "assetId": 202014160
-    },
-    "builds/autoLevel5x5_Russian _PROBING_MARGIN_50.js": {
-        "version": "2.1.2.4",
-        "md5": "0e93b92eaac158a0d20542037cb15769",
-        "assetId": 202101509
     },
     "builds/autoLevel5x5_Russian.js": {
         "version": "2.1.2.4",
         "md5": "4be69e5b52aa3d6cb911b94c7c12a9a3",
         "assetId": 202014164
     },
-    "builds/autoLevel7x7Lin_Russian _PROBING_MARGIN_100.js": {
-        "version": "2.1.2.4",
-        "md5": "57e8d7361df1b33f460aede79bc649ed",
-        "assetId": 202101511
-    },
     "builds/autoLevel7x7Lin_Russian.js": {
         "version": "2.1.2.4",
         "md5": "1356f95ed2bcddbaa96177157e33f57f",
         "assetId": 202014166
     },
-    "builds/autoLevel7x7_Russian _PROBING_MARGIN_50.js": {
+    "builds/autoLevel7x7Lin_RussianTEST1.js": {
         "version": "2.1.2.4",
-        "md5": "150f17529b5e1c85bb090df2bf8d2b39",
-        "assetId": 202101513
+        "md5": "d6f69fa8399d11ba3fa587747fb0ad40",
+        "assetId": 202110610
     },
     "builds/autoLevel7x7_Russian.js": {
         "version": "2.1.2.4",
