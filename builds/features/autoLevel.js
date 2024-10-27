@@ -26,9 +26,9 @@ module.exports = {
             "PROBE_OFFSET_WIZARD",
 
             //symmetrical
-            ["PROBING_MARGIN_LEFT", 60],
+            ["PROBING_MARGIN_LEFT", 70],
             ["PROBING_MARGIN_RIGHT", 45],
-            ["PROBING_MARGIN_FRONT", 30],
+            ["PROBING_MARGIN_FRONT", 40],
             ["PROBING_MARGIN_BACK", 15]
         ]
     }
