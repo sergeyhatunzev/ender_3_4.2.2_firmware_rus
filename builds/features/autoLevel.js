@@ -10,7 +10,7 @@ module.exports = {
             "LCD_BED_LEVELING",
 
             ["DEFAULT_LEVELING_FADE_HEIGHT", 20],
-            ["NOZZLE_TO_PROBE_OFFSET", [20, 10, 0]],
+            ["NOZZLE_TO_PROBE_OFFSET", [25, 10, 0]],
 
             //M48 test
             "Z_MIN_PROBE_REPEATABILITY_TEST"
@@ -24,10 +24,10 @@ module.exports = {
             "BABYSTEPPING",
             "BABYSTEP_ZPROBE_OFFSET",
             "PROBE_OFFSET_WIZARD",
-			"DISABLE_PROBING_MARGIN_CHECK",
+
             //symmetrical
-            ["PROBING_MARGIN_LEFT", 70],
-            ["PROBING_MARGIN_RIGHT",  44],
+            ["PROBING_MARGIN_LEFT", 45],
+            ["PROBING_MARGIN_RIGHT", 45],
             ["PROBING_MARGIN_FRONT", 15],
             ["PROBING_MARGIN_BACK", 15]
         ]
