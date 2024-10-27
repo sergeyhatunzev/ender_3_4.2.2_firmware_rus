@@ -27,9 +27,9 @@ module.exports = {
 
             //symmetrical
             ["PROBING_MARGIN_LEFT", 70],
-            ["PROBING_MARGIN_RIGHT", 5],
-            ["PROBING_MARGIN_FRONT", 5],
-            ["PROBING_MARGIN_BACK", 5]
+            ["PROBING_MARGIN_RIGHT", 20],
+            ["PROBING_MARGIN_FRONT", 20],
+            ["PROBING_MARGIN_BACK",  20 ]
         ]
     }
 };
