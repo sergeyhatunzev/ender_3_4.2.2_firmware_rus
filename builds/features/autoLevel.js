@@ -24,7 +24,7 @@ module.exports = {
             "BABYSTEPPING",
             "BABYSTEP_ZPROBE_OFFSET",
             "PROBE_OFFSET_WIZARD",
-
+			"DISABLE_PROBING_MARGIN_CHECK",
             //symmetrical
             ["PROBING_MARGIN_LEFT", 134],
             ["PROBING_MARGIN_RIGHT",  44],
