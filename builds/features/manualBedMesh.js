@@ -3,7 +3,7 @@ module.exports = {
     configuration: {
         enable: [
             "PROBE_MANUALLY",
-            ["NOZZLE_TO_PROBE_OFFSET", [0, 0, 0]],
+            ["NOZZLE_TO_PROBE_OFFSET", [20, 10, 0]],
             "MESH_BED_LEVELING",
             "RESTORE_LEVELING_AFTER_G28",
             "LCD_BED_LEVELING",
