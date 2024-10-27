@@ -10,7 +10,10 @@ module.exports = {
             //standard leveling menu helper
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
-            ["LCD_LANGUAGE", q`ru`]
+            ["LCD_LANGUAGE", q`ru`],
+			["X_BED_SIZE",  235],
+			["Y_BED_SIZE",  235]
+			
         ]
     },
     configuration_adv: {
