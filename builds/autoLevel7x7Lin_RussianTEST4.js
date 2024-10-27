@@ -5,8 +5,8 @@ module.exports = {
     extends: "builds/baseLin.js",
     include: "builds/features/autoLevel.js",
     meta: {
-        stable_name: "ender_3_4.2.2-{{marlin_version}}-auto_level_7x7_linTEST-{{uid}}",
-        nightly_name: "ender_3_4.2.2-{{current_date}}-auto_level_7x7_linTEST-{{uid}}"
+        stable_name: "ender_3_4.2.2-{{marlin_version}}-auto_level_7x7_linTEST4-{{uid}}",
+        nightly_name: "ender_3_4.2.2-{{current_date}}-auto_level_7x7_linTEST4-{{uid}}"
     },
     configuration: {
         enable: [
