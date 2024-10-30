@@ -1,59 +1,61 @@
-# Ender-3 4.2.2 firmware
 
-Automatic [Marlin](https://github.com/MarlinFirmware/Marlin) builds for the Ender-3 with the stock creality 4.2.2(512K) board.  
-You can find both stable and nightly (`bugfix-2.1.x`) downloads on the repository releases.  
 
-**Important**
-* Make sure you have a 4.2.2 512K flash board before installing. Some newer models come with 256K of flash. You can read more [here](https://github.com/MarlinFirmware/Marlin/issues/23596). If your board is the 256K variant you can fork the repo and change the `board_env`.
-* All builds here use the default `A4988` stepper drivers, you can fork and change that if you have different ones. To find out which drivers you have there is a little marking on the sd card slot. More info [here](https://github.com/MarlinFirmware/Configurations/pull/633#issuecomment-995206382).
-* It's been a while since i used this board. The latest tested version is `2.0.9.3`.
+# Прошивка для Ender-3 4.2.2
 
-## Builds
+Автоматические сборки [Marlin](https://github.com/MarlinFirmware/Marlin) для Ender-3 с платой Creality 4.2.2 (512K).  
+Вы можете найти как стабильные, так и ночные сборки (`bugfix-2.1.x`) на странице релизов репозитория.  
+
+**Важно**
+* Убедитесь, что у вас плата 4.2.2 с 512K флеш-памяти перед установкой. Некоторые новые модели имеют 256K памяти. Подробнее об этом [здесь](https://github.com/MarlinFirmware/Marlin/issues/23596). Если у вас версия с 256K, можно форкнуть репозиторий и изменить `board_env`.
+* Все сборки здесь используют стандартные драйверы шаговых двигателей `A4988`. Если у вас другие драйверы, можно форкнуть и изменить конфигурацию. Чтобы определить, какие у вас драйверы, посмотрите на отметку рядом со слотом для SD-карты. Подробнее [здесь](https://github.com/MarlinFirmware/Configurations/pull/633#issuecomment-995206382).
+* Последняя протестированная версия прошивки — `2.0.9.3`.
+
+## Сборки
 
 ### default
 
-The default Marlin configuration for Ender-3.
+Стандартная конфигурация Marlin для Ender-3.
 
 ### base
 
-Bed leveling helper menu to move around the corners. Better than having a gcode file or moving manually.  
-Also enables `HOST_ACTION_COMMANDS` as required by octoprint.
+Меню помощи при выравнивании стола с перемещением по углам. Удобнее, чем использовать gcode-файл или вручную перемещать.  
+Также включает `HOST_ACTION_COMMANDS`, как требуется для OctoPrint.
 
 ### base_lin
 
-base + [linear advance](https://marlinfw.org/docs/features/lin_advance.html).     
-Linear advance `K factor` is set to `0`. You can read the marlin docs on how to find and set a good value. There are also numerous videos on youtube.  
+base + [линейное опережение](https://marlinfw.org/docs/features/lin_advance.html).  
+K-фактор линейного опережения установлен на `0`. Как найти и установить оптимальное значение, можно узнать из документации Marlin или видео на YouTube.  
 
 ### manual_mesh
 
-[Manual mesh leveling](https://marlinfw.org/docs/gcode/G029-mbl.html)  
-4 different variations are provided:
+[Ручное выравнивание сетки](https://marlinfw.org/docs/gcode/G029-mbl.html)  
+Доступны 4 варианта:
 
-* `manual_mesh_5x5` [base](#base) + manual mesh leveling with 5x5 grid
-* `manual_mesh_5x5_lin` [base_lin](#base_lin) + manual mesh leveling with 5x5 grid
-* `manual_mesh_7x7` [base](#base) + manual mesh leveling with 7x7 grid
-* `manual_mesh_7x7_lin` [base_lin](#base_lin) + manual mesh leveling with 7x7 grid
+* `manual_mesh_5x5` [base](#base) + ручное выравнивание сетки с сеткой 5x5
+* `manual_mesh_5x5_lin` [base_lin](#base_lin) + ручное выравнивание сетки с сеткой 5x5
+* `manual_mesh_7x7` [base](#base) + ручное выравнивание сетки с сеткой 7x7
+* `manual_mesh_7x7_lin` [base_lin](#base_lin) + ручное выравнивание сетки с сеткой 7x7
 
 ### auto_level
 
-[automatic leveling](https://marlinfw.org/docs/gcode/G029-abl-bilinear.html)  
-**Note**: Only tested with a CR-touch but a BL-touch should work as well. Not sure about the 3D-touch clones, do some research before flashing. If you have a different type of probe you will need a different configuration.  
+[Автоматическое выравнивание](https://marlinfw.org/docs/gcode/G029-abl-bilinear.html)  
+**Примечание**: Протестировано только с CR-touch, но BL-touch тоже должен работать. Для клонов 3D-touch требуется дополнительное исследование перед прошивкой. Если у вас другой тип датчика, потребуется другая конфигурация.  
 
-4 different variations are provided:
+Доступны 4 варианта:
 
-* `auto_level_5x5` [base](#base) + automatic leveling with 5x5 grid
-* `auto_level_5x5_lin` [base_lin](#base_lin) + automatic leveling with 5x5 grid
-* `auto_level_7x7` [base](#base) + automatic leveling with 7x7 grid
-* `auto_level_7x7_lin` [base_lin](#base_lin) + automatic leveling with 7x7 grid
+* `auto_level_5x5` [base](#base) + автоматическое выравнивание с сеткой 5x5
+* `auto_level_5x5_lin` [base_lin](#base_lin) + автоматическое выравнивание с сеткой 5x5
+* `auto_level_7x7` [base](#base) + автоматическое выравнивание с сеткой 7x7
+* `auto_level_7x7_lin` [base_lin](#base_lin) + автоматическое выравнивание с сеткой 7x7
 
-The grid is configured to be symmetrical with 45mm margin on left and right and 15mm on front and back.  
-All probe offsets are set to `0`. There are a lot of videos on how to measure and set them.  
-The build enables the offset wizard to simplify the Z-offset measurement.  
+Сетка настроена симметрично с отступом для 3d touch  
+Все смещения зонда установлены на `0`. В сети есть много видео о том, как измерить и настроить их.  
+В прошивке включен мастер смещения, чтобы упростить измерение Z-смещения.  
 
-**Important**: The build assumes you are using the dedicated BL-touch port on the board and you have the Z-stop disconnected. It will not work if you are using the Z-stop port for the probe.  
+**Важно**: Сборка предполагает использование специального порта для BL-touch на плате с отключенным Z-stop. Если вы используете Z-stop порт для зонда, прошивка работать не будет.  
 
-The [M48 accuracy test](https://marlinfw.org/docs/gcode/M048.html) is also enabled in case you want to test your probe.
+Включен тест точности [M48](https://marlinfw.org/docs/gcode/M048.html) на случай, если вы хотите проверить свой зонд.
 
-## Build you own firmware
+## Создание собственной прошивки
 
-Check out [Marlin auto build](https://github.com/zisismaras/marlin_auto_build) if you want to build your own firmware automatically on github.
+Посмотрите [Marlin auto build](https://github.com/zisismaras/marlin_auto_build), если хотите автоматически собирать прошивку на GitHub.
