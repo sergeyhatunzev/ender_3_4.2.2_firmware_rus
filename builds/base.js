@@ -12,15 +12,16 @@ module.exports = {
             "BED_TRAMMING_INCLUDE_CENTER",
             ["LCD_LANGUAGE", q`ru`],
             ["X_BED_SIZE",  235],
-            ["Y_BED_SIZE",  235]
+            ["Y_BED_SIZE",  235],
+            // Включаем NOZZLE_PARK_FEATURE
+            "NOZZLE_PARK_FEATURE", // Нужно для работы ADVANCED_PAUSE_FEATURE
         ]
     },
     configuration_adv: {
         enable: [
             // OctoPrint
             "HOST_ACTION_COMMANDS",
-            // Включаем NOZZLE_PARK_FEATURE
-            "NOZZLE_PARK_FEATURE", // Нужно для работы ADVANCED_PAUSE_FEATURE
+            
             // Включаем продвинутую паузу для замены филамента
             "ADVANCED_PAUSE_FEATURE"
         ]
