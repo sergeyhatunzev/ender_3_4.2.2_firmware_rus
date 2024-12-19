@@ -7,21 +7,22 @@ module.exports = {
     configuration: {
         enable: [
             ["STRING_CONFIG_H_AUTHOR", "(Dust, valerionew, Ender-3, zisismaras)"],
-            // standard leveling menu helper
+            // стандартное меню выравнивания стола
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
             ["LCD_LANGUAGE", q`ru`],
-			["X_BED_SIZE",  235],
-			["Y_BED_SIZE",  235]
+            ["X_BED_SIZE",  235],
+            ["Y_BED_SIZE",  235]
         ]
     },
     configuration_adv: {
         enable: [
-            // octoprint
+            // OctoPrint
             "HOST_ACTION_COMMANDS",
-            // enable M600 (Advanced Pause)
-            "ADVANCED_PAUSE_FEATURE" // Включение команды M600
-            
+            // Включаем NOZZLE_PARK_FEATURE
+            "NOZZLE_PARK_FEATURE", // Нужно для работы ADVANCED_PAUSE_FEATURE
+            // Включаем продвинутую паузу для замены филамента
+            "ADVANCED_PAUSE_FEATURE"
         ]
     }
 };
