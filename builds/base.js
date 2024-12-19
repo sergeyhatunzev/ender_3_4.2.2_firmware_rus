@@ -7,19 +7,23 @@ module.exports = {
     configuration: {
         enable: [
             ["STRING_CONFIG_H_AUTHOR", "(Dust, valerionew, Ender-3, zisismaras)"],
-            //standard leveling menu helper
+            // standard leveling menu helper
             "LCD_BED_TRAMMING",
             "BED_TRAMMING_INCLUDE_CENTER",
             ["LCD_LANGUAGE", q`ru`],
 			["X_BED_SIZE",  235],
 			["Y_BED_SIZE",  235]
-			
         ]
     },
     configuration_adv: {
         enable: [
-            //octoprint
-            "HOST_ACTION_COMMANDS"
+            // octoprint
+            "HOST_ACTION_COMMANDS",
+            // enable M600 (Advanced Pause)
+            "ADVANCED_PAUSE_FEATURE", // Включение команды M600
+            "FILAMENT_LOAD_UNLOAD_GCODES", // Опция для загрузки/выгрузки
+            "LCD_FILAMENT_UNLOAD_MENU", // Добавляет пункт "Выгрузка филамента"
+            "LCD_FILAMENT_LOAD_MENU" // Добавляет пункт "Загрузка филамента"
         ]
     }
 };
