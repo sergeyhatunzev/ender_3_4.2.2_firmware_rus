@@ -20,10 +20,8 @@ module.exports = {
             // octoprint
             "HOST_ACTION_COMMANDS",
             // enable M600 (Advanced Pause)
-            "ADVANCED_PAUSE_FEATURE", // Включение команды M600
-            "FILAMENT_LOAD_UNLOAD_GCODES", // Опция для загрузки/выгрузки
-            "LCD_FILAMENT_UNLOAD_MENU", // Добавляет пункт "Выгрузка филамента"
-            "LCD_FILAMENT_LOAD_MENU" // Добавляет пункт "Загрузка филамента"
+            "ADVANCED_PAUSE_FEATURE" // Включение команды M600
+            
         ]
     }
 };
