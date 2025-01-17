@@ -1,57 +1,57 @@
 {
     "builds/autoLevel5x5Lin_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "7077c6d1d1c116a2182996f1a91ba79e",
-        "assetId": 209334274
+        "assetId": 221070766
     },
     "builds/autoLevel7x7Lin_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "419de1f4854900c2eb8dbd7113d0ed60",
-        "assetId": 209334275
+        "assetId": 221070767
     },
     "builds/autoLevel7x7_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "8b2a392a757e06b48fd9895537004b80",
-        "assetId": 209334276
+        "assetId": 221070768
     },
     "builds/autoLevl5x5_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "cfff255b34034374b2095aae4ec02aa2",
-        "assetId": 209334277
+        "assetId": 221070769
     },
     "builds/base.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "08e5d0a241752c15163d3017e211d80e",
-        "assetId": 209334280
+        "assetId": 221070770
     },
     "builds/baseLin.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "26c73153e998d7b901190bdca9b227cf",
-        "assetId": 209334283
+        "assetId": 221070771
     },
     "builds/default.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "a11d2dec0f63853eb2ee7e6f856f4d84",
-        "assetId": 209334284
+        "assetId": 221070772
     },
     "builds/manualBedMesh5x5Lin_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "f0b362e5edd81bfc1ea120c754ecfae9",
-        "assetId": 209334285
+        "assetId": 221070774
     },
     "builds/manualBedMesh5x5_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "0b2d3cd2ab469c2316413aaf38e87d52",
-        "assetId": 209334286
+        "assetId": 221070775
     },
     "builds/manualBedMesh7x7Lin_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "e0038c1b212394cc7552a4b779f55506",
-        "assetId": 209334288
+        "assetId": 221070776
     },
     "builds/manualBedMesh7x7_Russian.js": {
-        "version": "2.1.3-b1",
+        "version": "2.1.3-b2",
         "md5": "b77b3b2eafaad9c58f3b7c56a1c98a9a",
-        "assetId": 209334289
+        "assetId": 221070777
     }
 }
